@@ -14,6 +14,9 @@ This repository contains code and resources for a machine learning project aimed
 The model training involves the following steps:
 
 Data Preparation: Load and preprocess the images. Images are resized and flattened to be used as input for the model.
+
 Model Selection: Different models (Naive Bayes, Decision Tree, Random Forest, and SVM) are trained and evaluated.
+
 Hyperparameter Tuning: GridSearchCV is used to find the best parameters for the SVM model.
+
 Model Evaluation: The models are evaluated using accuracy score and classification report.
